@@ -3,6 +3,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
+    z-index: 10000;
 }
 
 .nav-icon{

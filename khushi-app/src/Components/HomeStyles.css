@@ -1,0 +1,176 @@
+#face{
+    display: block;
+    float: right;
+    margin-left: 10%; 
+    margin-right: 10%;  
+}
+
+body, body *{
+    cursor: none;
+}
+
+.shapes{
+    position: relative;
+    height: 100vh;
+    width: 50vw;
+    overflow: hidden;
+}
+
+.shape{
+    will-change: transform;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.shape-1{
+    background: rgb(245, 191, 96);
+    width:  650px;
+    height: 650px;
+    margin: -325px 0 0 -325px;
+}
+
+.shape-2{
+    background: rgb(232,78,68);
+    width:  440px;
+    height: 440px;
+    margin: -220px 0 0 -220px;
+}
+
+.shape-3{
+    background:rgb(8, 119, 119);
+    width:  270px;
+    height: 270px;
+    margin: -135px 0 0 -135px;
+}
+
+.content{
+    top: 81px;
+    left: 0;
+    background: white;
+    display: flex;
+    align-items: flex-start;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    justify-content: center;
+    mix-blend-mode: screen;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+h1{
+    font-size: 80px;
+    color: rgb(97, 96, 96);
+    font-weight: 300;
+    margin: 0;
+    text-align: left;
+    padding-top: 10%;
+}
+h2{
+    font-size: 25px;
+    color: rgb(97, 96, 96);
+    font-weight: 300;
+    margin: 0;
+    text-align: left;
+}
+
+@media (max-width:769px){
+    h1{
+        font-size: 25px;
+        display: none;
+    }
+    h2{
+        font-size: 10px;
+        padding-top: 100px;
+        text-align: left;
+        display: none;
+    }
+    .shapes{
+        display: none;
+    }
+    .content{
+        background: none;
+        top: 0;
+        padding-left: 0;
+    }
+    #face{
+        float: none;
+        max-width: 100%;
+        margin-top: 10%;
+        padding: 30px;
+    }
+}
+
+.cursor{
+    position:fixed;
+    background:rgb(248, 167, 91);
+    width: 10px;
+    height: 10px;
+    margin: 0 0 0 0;
+    border-radius: 50%;
+    will-change: transform;
+    -webkit-user-select:none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    z-index: 10000;
+}
+
+::-moz-selection{
+    color: white;
+    background: orange;
+}
+
+::selection{
+    color: white;
+    background: orange;
+}
+
+.arrows {
+    width: 60px;
+    height: 72px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 20px;
+  }
+  
+.arrows path {
+stroke: rgb(255, 133, 124);
+fill: transparent;
+stroke-width: 1px;  
+animation: arrow 2s infinite;
+-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+animation-delay:-1s;
+-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+animation-delay:-0.5s;
+-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 { 
+animation-delay:0s;
+-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
