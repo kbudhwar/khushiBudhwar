@@ -46,7 +46,7 @@ class Home extends Component{
                     <h1>hi i'm khushi!
                     <h2>i'm a second year software engineering student at the university of waterloo</h2>
                     </h1>
-                    <img src={face} id='face'></img>
+                    <img src={face} id='face' alt='face'></img>
                 </div>
                 <svg class="arrows">
                 <path class="a1" d="M0 0 L30 32 L60 0"></path>

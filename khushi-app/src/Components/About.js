@@ -38,7 +38,7 @@ class About extends Component{
                 <br></br><br></br>I have recently worked as a Machine Learning Engineering intern at <a href="https://www.blackberry.com/us/en">Blackberry</a>, where I got to work on thrilling nlp problems. I also was a Software Engineering intern at <a href="https://www.verticalscope.com/">Verticalscope</a> working with tools like k8s and react.
                 <br></br><br></br>I love meeting new people - feel free to reach out to me on <a href='https://www.linkedin.com/in/khushi-budhwar/'>linkidin</a> or by <a href="mailto:khushi.budhwar@gmail.com">email</a>!
                 </div>
-                <img className="rocket" src={Rocket}></img>
+                <img className="rocket" src={Rocket} alt="Rocket"></img>
                 <svg class="arrows1">
                 <path class="a1" d="M0 0 L30 32 L60 0"></path>
                 <path class="a2" d="M0 20 L30 52 L60 20"></path>
