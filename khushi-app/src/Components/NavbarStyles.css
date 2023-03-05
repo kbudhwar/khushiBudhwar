@@ -4,6 +4,9 @@ nav{
     justify-content: space-between;
     padding: 20px 80px;
     z-index: 10000;
+    position: fixed;
+    width: 100%;
+    background-color: white;
 }
 
 .nav-icon{
@@ -14,12 +17,14 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 999;
 }
 
 #navbar li{
     list-style: none;
     padding: 0 20px;
     position: relative;
+
 }
 
 #navbar li a{

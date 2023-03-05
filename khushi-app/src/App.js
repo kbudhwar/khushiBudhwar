@@ -2,12 +2,14 @@ import React from 'react';
 import './App.css';
 import NavbarComp from './Components/Navbar';
 import Home from './Components/Home';
+import About from './Components/About';
 
 function App() {
   return (
     <div className="App">
       <NavbarComp/>
       <Home/>
+      <About/>
     </div>
     // <div className="app">
     //   <header className="header">

@@ -2,6 +2,7 @@ import React, {Component } from 'react';
 import face from '../images/face.png'
 import './HomeStyles.css'
 import { gsap } from "gsap";
+import { Element } from 'react-scroll';
 
 
 class Home extends Component{
@@ -11,7 +12,7 @@ class Home extends Component{
 
         gsap.set(".cursor", {
                 x:mouseX,
-                y: mouseY - 70
+                y: mouseY
         });
 
         gsap.set(".shape", {
@@ -34,6 +35,7 @@ class Home extends Component{
     render(){
         return(
             <div className='home'>
+                <Element name="home">
                 <div className='cursor'></div>
                 <div className='shapes'>
                     <div className='shape shape-1'></div>
@@ -51,6 +53,7 @@ class Home extends Component{
                 <path class="a2" d="M0 20 L30 52 L60 20"></path>
                 <path class="a3" d="M0 40 L30 72 L60 40"></path>
             </svg>
+            </Element>
             </div>
         )
     }
