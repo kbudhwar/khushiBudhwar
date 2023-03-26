@@ -73,59 +73,6 @@ h2{
     text-align: left;
 }
 
-@media (max-width:769px){
-    h1{
-        font-size: 25px;
-        display: none;
-    }
-    h2{
-        font-size: 10px;
-        padding-top: 100px;
-        text-align: left;
-        display: none;
-    }
-    .shapes{
-        display: none;
-    }
-    .content{
-        background: none;
-        top: 0;
-        padding-left: 0;
-    }
-    #face{
-        float: none;
-        max-width: 100%;
-        margin-top: 10%;
-        padding: 30px;
-    }
-}
-
-.cursor{
-    position:fixed;
-    background:rgb(248, 167, 91);
-    width: 10px;
-    height: 10px;
-    margin: 0 0 0 0;
-    border-radius: 50%;
-    will-change: transform;
-    -webkit-user-select:none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    pointer-events: none;
-    z-index: 10000;
-}
-
-::-moz-selection{
-    color: white;
-    background: rgb(2, 166, 166);
-}
-
-::selection{
-    color: white;
-    background: rgb(2, 166, 166);
-}
-
 .arrows {
     width: 60px;
     height: 72px;
@@ -171,4 +118,68 @@ animation-delay:-0.5s;
 .arrows path.a3 { 
 animation-delay:0s;
 -webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
+.content-media{
+    display: none;
+}
+
+.info-media{
+    display: none;
+}
+@media (max-width:769px){
+    h1{
+        font-size: 10vw;
+        position: relative;
+        padding: 0;
+        text-align: center;
+    }
+    h2{
+        font-size: 3vw;
+        text-align: center;
+        position: relative;
+        padding: 0;
+        left: 22vw;
+        width: 55vw;
+    }
+    .shapes{
+        display: none;
+    }
+    .content{
+        display: none;
+    }
+    .content-media{
+        top: 81px;
+        left: 0;
+        background: white;
+        display: block;
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+    }
+    #face{
+        padding-top: 40px;
+        float: none;
+        text-align: center;
+        display: unset;
+        margin: 0;
+    }
+    .info-media{
+        display: block;
+        position: relative;
+        text-align: center;
+    }
+}
+@media (max-width:480px){
+    #face{
+        padding-top: 40px;
+        float: none;
+        text-align: center;
+        display: unset;
+        width: 80vw;
+        margin: 0;
+    }
 }

@@ -1,0 +1,140 @@
+.backgroundProject {
+    width: 100vw;
+    height: 100vh;
+    background-color: teal;
+    /* margin-top: 9%; */
+  }
+
+
+.arrows2 {
+    width: 60px;
+    height: 72px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: -220vh;
+  }
+  
+  .arrows2 path {
+    stroke: rgb(255, 204, 0);
+    fill: transparent;
+    stroke-width: 1px;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .background-animation {
+      animation: wipe-enter 1.5s 1;
+    }
+  }
+  @keyframes arrow {
+    0% {
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes arrow /*Safari and Chrome*/ {
+    0% {
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .arrows2 path.a1 {
+    animation-delay: -1s;
+    -webkit-animation-delay: -1s; /* Safari 和 Chrome */
+  }
+  
+  .arrows2 path.a2 {
+    animation-delay: -0.5s;
+    -webkit-animation-delay: -0.5s; /* Safari 和 Chrome */
+  }
+  
+  .arrows2 path.a3 {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s; /* Safari 和 Chrome */
+  }
+
+.title-projects{
+    font-size: 80px;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 3%;
+    width: 100%;
+}
+
+.project-card{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 28vw;
+    height: 45vh;
+    margin: 15px;
+    margin-top: 30px;
+    }
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+.backgroundProject-media{
+  display: none;
+}
+  @media screen and (max-width:769px){
+    .background-animation{
+      display: none;
+    }
+    .backgroundProject-media{
+      width: 100vw;
+      height: 80vw;
+      background-color: teal;
+      display: block;
+      position: relative;
+      top: calc(200px + 100vw);
+    }
+    .title-projects{
+      font-size: 10vw;
+    }
+    h3{
+      font-size: 3vw;
+    }
+    p{
+      font-size: 2vw;
+    }
+    a{
+      font-size: 2vw;
+    }
+    .project-card{
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      width: 28vw;
+      height: 45vw;
+      margin: 15px;
+      margin-top: 30px;
+      }
+      .backgroundProject{
+        display: none;
+      }
+  }

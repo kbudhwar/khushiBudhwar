@@ -79,3 +79,28 @@ nav{
     }
 
 }
+
+.cursor{
+    position:fixed;
+    width: 10px;
+    height: 10px;
+    margin: 0 0 0 0;
+    border-radius: 50%;
+    will-change: transform;
+    -webkit-user-select:none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    z-index: 10005;
+}
+
+::-moz-selection{
+    color: white;
+    background: rgb(2, 166, 166);
+}
+
+::selection{
+    color: white;
+    background: rgb(2, 166, 166);
+}

@@ -1,0 +1,85 @@
+.backgroundContact {
+    width: 100vw;
+    height: 6vh;
+    background-color: rgb(248, 167, 91);
+  }
+.title-contact{
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 5%;
+    padding-top: 0%;
+    width: fit-content;
+    height: fit-content;
+    display: inline-block
+}
+.fa{
+    color: white;
+    position: relative;
+    padding-left: 15px;
+    display: inline-block;
+    padding-top: 0.9%;
+    font-size: large;
+}
+.fa:hover{
+    color: teal;
+}
+.fa-brands:hover{
+    color:teal;
+}
+.backgroundContact-media{
+    display: none;
+}
+.fa-brands{
+    color: white;
+    width: fit-content;
+    padding-left: 15px;
+    display: inline-block;
+    position: relative;
+    padding-top: 0.8%;
+    font-size: large;
+}
+.fa-solid{
+    color: rgb(255, 101, 90);
+    display: inline-block;
+    padding-top: 0.9%;
+}
+
+.memo{
+    color: white;
+    width: fit-content;
+    position: relative;
+    float: right;
+    padding-top: 0.9%;
+    display: flex;
+    padding-right: 3%;
+}
+
+@media screen and (max-width:769px){
+    .background-animation{
+      display: none;
+    }
+    .backgroundContact-media {
+        width: 100vw;
+        height: 6vh;
+        background-color: rgb(248, 167, 91);
+        display: block;
+        position: relative;
+        top: calc(200px + 100vw);
+      }
+  }
+
+  @media screen and (max-width:575px){
+    .memo{
+        display: none;
+    }
+  }
+  @media screen and (max-width:300px){
+    .title-contact{
+        display: none;
+    }
+    .memo{
+        display: none;
+    }
+  }

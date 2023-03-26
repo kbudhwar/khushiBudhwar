@@ -3,6 +3,8 @@ import './App.css';
 import NavbarComp from './Components/Navbar';
 import Home from './Components/Home';
 import About from './Components/About';
+import Project from './Components/Project';
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <NavbarComp/>
       <Home/>
       <About/>
+      <Project/>
+      <Contact/>
     </div>
     // <div className="app">
     //   <header className="header">
