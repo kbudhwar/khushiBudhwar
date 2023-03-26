@@ -45,7 +45,7 @@ class Project extends Component {
   }
 
   handleScroll() {
-    this.setState({ scroll1: window.scrollY > 680 });
+    this.setState({ scroll1: window.scrollY > 500 });
   }
 
   render() {
