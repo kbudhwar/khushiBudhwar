@@ -32,9 +32,15 @@ render(){
             <a href='https://www.linkedin.com/in/khushi-budhwar/'>
             <i className= {this.state.scroll1 ? "fa-brands fa-linkedin": "about-me-no"} aria-hidden="true"></i>
             </a>
+            <a href='https://github.com/kbudhwar'>
             <i className= {this.state.scroll1 ? "fa-brands fa-github": "about-me-no"} aria-hidden="true"></i>
+            </a>
+            <a href='mailto:khushi.budhwar@gmail.com'>
             <i className={this.state.scroll1 ?  "fa fa-envelope": "about-me-no"} aria-hidden="true"></i>
+            </a>
+            <a href='https://drive.google.com/file/d/1KQebYLOtRG_s9IMrkgDgyHdL7o2elPe_/view?usp=sharing'>
             <i className={this.state.scroll1 ?  "fa fa-file": "about-me-no"} aria-hidden="true"></i>
+            </a>
             <div className={this.state.scroll1 ?  'memo': "about-me-no"}>made with&nbsp;&nbsp;<i class="fa-solid fa-heart"></i>&nbsp;&nbsp;by khushi budhwar</div>
              </div>
              <div className='backgroundContact-media'>
@@ -42,9 +48,15 @@ render(){
                 <a href='https://www.linkedin.com/in/khushi-budhwar/'>
                 <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
                 </a>
+                <a href='https://github.com/kbudhwar'>
                 <i className="fa-brands fa-github" aria-hidden="true"></i>
+                </a>
+                <a href='mailto:khushi.budhwar@gmail.com'>
                 <i className="fa fa-envelope" aria-hidden="true"></i>
+                </a>
+                <a href='https://drive.google.com/file/d/1KQebYLOtRG_s9IMrkgDgyHdL7o2elPe_/view?usp=sharing'>
                 <i class="fa fa-file" aria-hidden="true"></i>
+                </a>
                 <div className='memo'>made with&nbsp;&nbsp;<i class="fa-solid fa-heart"></i>&nbsp;&nbsp;by khushi budhwar</div>
              </div>
             </Element>

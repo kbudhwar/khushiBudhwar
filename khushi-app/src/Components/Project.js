@@ -7,21 +7,24 @@ import ProjectCard from "./ProjectCards";
 const projects = [
     {
       title: 'Leaf It',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: 'An automatic plant irrigation system, that will water a plant depending on its moisture level and its species',
       image: '../images/plant.jpeg',
+      technologies: ['Python', 'Raspberry Pi'],
       link: 'https://github.com/Shivam-J-07/Leaf-It'
     },
     {
-      title: 'Jarvis GPT',
-      description: 'Nulla tempus sodales ante, non auctor felis ultricies quis.',
+      title: 'Spotify Heardle',
+      description: 'Using a users spotify profile, the website plays a snippit of a song in which the user names the title.',
       image: 'project2.png',
-      link: 'https://www.example.com/project2'
+      technologies: ['React', 'Node.js', 'MongoDB'],
+      link: 'https://github.com/kbudhwar/Spotify-Karoke'
     },
     {
         title: 'NLP Next Word Predictor',
-        description: 'Nulla tempus sodales ante, non auctor felis ultricies quis.',
+        description: 'Created a NLP auto-complete tool that will predict the next word given any sequence of words. Extracted my own emails and documents as data, to best mimic my speech.',
         image: 'project2.png',
-        link: 'https://www.example.com/project2'
+        technologies: ['Tensorflow', 'Keras', 'Pandas'],
+        link: 'https://github.com/kbudhwar/nlp-project'
       },
     // ... more projects
   ];
@@ -61,6 +64,7 @@ class Project extends Component {
             key={project.title}
             title={project.title}
             description={project.description}
+            technologies={project.technologies}
             image={project.image}
             link={project.link}
             />
@@ -78,6 +82,7 @@ class Project extends Component {
             key={project.title}
             title={project.title}
             description={project.description}
+            technologies={project.technologies}
             image={project.image}
             link={project.link}
             />
