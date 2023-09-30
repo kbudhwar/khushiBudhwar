@@ -54,7 +54,7 @@ render(){
                 <a href='mailto:khushi.budhwar@gmail.com'>
                 <i className="fa fa-envelope" aria-hidden="true"></i>
                 </a>
-                <a href='https://drive.google.com/file/d/1KQebYLOtRG_s9IMrkgDgyHdL7o2elPe_/view?usp=sharing'>
+                <a href='https://drive.google.com/file/d/1eyQi5SoSMc5QCS6emaSMmQsUvIZbc47R/view?usp=sharing'>
                 <i class="fa fa-file" aria-hidden="true"></i>
                 </a>
                 <div className='memo'>made with&nbsp;&nbsp;<i class="fa-solid fa-heart"></i>&nbsp;&nbsp;by khushi budhwar</div>
