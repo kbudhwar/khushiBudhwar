@@ -1,7 +1,7 @@
 .backgroundProject {
     width: 100vw;
     height: 100vh;
-    background-color: teal;
+    background-color: white;
     display: block;
   }
 
@@ -74,7 +74,7 @@
 
 .title-projects{
     font-size: 80px;
-    color: white;
+    color: teal;
     font-weight: 200;
     text-align: center;
     padding-top: 3%;
@@ -137,7 +137,7 @@
     .backgroundProject-media{
       width: 100vw;
       height: 80vw;
-      background-color: teal;
+      background-color: white;
       display: block;
       position: relative;
       top: calc(200px + 100vw);
@@ -183,7 +183,7 @@
     .backgroundProject-media{
       width: 100vw;
       height: 65vh;
-      background-color: teal;
+      background-color: white;
       display: block;
       position: relative;
       top: calc(200px + 100vw);

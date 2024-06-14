@@ -38,7 +38,7 @@ render(){
             <a href='mailto:khushi.budhwar@gmail.com'>
             <i className={this.state.scroll1 ?  "fa fa-envelope": "about-me-no"} aria-hidden="true"></i>
             </a>
-            <a href='https://drive.google.com/file/d/1KQebYLOtRG_s9IMrkgDgyHdL7o2elPe_/view?usp=sharing'>
+            <a href='https://drive.google.com/file/d/1AsIP0x_O2qXljkTH5fON0D8IlgaFk0Fm/view?usp=sharing'>
             <i className={this.state.scroll1 ?  "fa fa-file": "about-me-no"} aria-hidden="true"></i>
             </a>
             <div className={this.state.scroll1 ?  'memo': "about-me-no"}>made with&nbsp;&nbsp;<i class="fa-solid fa-heart"></i>&nbsp;&nbsp;by khushi budhwar</div>

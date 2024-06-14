@@ -1,6 +1,6 @@
 .background {
   width: 100vw;
-  height: 500px;
+  height: 600px;
   background-color: rgb(255, 133, 124);
   margin-top: 7%;
 }
@@ -51,6 +51,7 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
+
 
 @keyframes animate-rocket {
   0% {
@@ -122,6 +123,10 @@ a{
   color: rgb(255, 224, 130);
   font-weight: 500;
 }
+
+a:hover{
+  color: rgb(255, 191, 0);
+}
 .about-me-no{
   display: none;
 }
@@ -162,3 +167,4 @@ a{
   float: right;
 }
 }
+
